@@ -1,6 +1,8 @@
 Steps
 
 https://developer.chrome.com/docs/devtools/recoreder
+https://coffee-cart.netlify.app/
+
 
 1) Go to the website or go to google
 2) Open recoreder
