@@ -1,0 +1,131 @@
+{
+    "title": "Florida Chat",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 725,
+            "height": 675,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "chrome://new-tab-page/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "chrome://new-tab-page/",
+                    "title": "New Tab"
+                }
+            ]
+        },
+        {
+            "type": "navigate",
+            "url": "https://chat.floridajs.com/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://chat.floridajs.com/",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#typingThang"
+                ]
+            ],
+            "offsetY": 25.05206298828125,
+            "offsetX": 231
+        },
+        {
+            "type": "change",
+            "value": "funny dog",
+            "selectors": [
+                [
+                    "#typingThang"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Enter"
+        },
+        {
+            "type": "keyUp",
+            "key": "Enter",
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "img:nth-of-type(2)"
+                ]
+            ],
+            "offsetY": 113.78125,
+            "offsetX": 115
+        },
+        {
+            "type": "waitForElement",
+            "target": "main",
+            "selectors": [
+                ".gif"
+            ],
+            "count": 1
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#typingThang"
+                ],
+                [
+                    "text/funny dog"
+                ]
+            ],
+            "offsetY": 32.05206298828125,
+            "offsetX": 306
+        },
+        {
+            "type": "change",
+            "value": "good bye",
+            "selectors": [
+                [
+                    "#typingThang"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Enter"
+        },
+        {
+            "type": "keyUp",
+            "key": "Enter",
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "img:nth-of-type(4)"
+                ]
+            ],
+            "offsetY": 53.83331298828125,
+            "offsetX": 92
+        }
+    ]
+}
