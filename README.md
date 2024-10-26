@@ -1,9 +1,12 @@
-Steps
+# Notes for the End-to-End tests in 5 Minutes Presentation
 
-https://developer.chrome.com/docs/devtools/recoreder
-https://coffee-cart.netlify.app/
+## Urls used in the presentation
+- https://developer.chrome.com/docs/devtools/recoreder
+- https://coffee-cart.netlify.app/
+- https://chat.floridajs.com
 
 
+## Steps of the presentation
 1) Go to the website or go to google
 2) Open recoreder
 3) give new name and start
@@ -28,8 +31,9 @@ https://coffee-cart.netlify.app/
 22) count to 1
 30 "wait for expression" is javascript expression 
 
-export otions;
-npm libraries
-npm install puppeteer @puppeteer/replay --save
 
-npx @puppeteer/replay order-*.json or specific json
+export otions;<BR>
+npm libraries<BR>
+npm install puppeteer @puppeteer/replay --save<BR>
+
+npx @puppeteer/replay test-*.json or specific json
